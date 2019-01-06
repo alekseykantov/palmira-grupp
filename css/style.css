@@ -11,7 +11,7 @@ html {
 body {
   min-height: 2000px;
   display: grid;
-  grid-template-rows: 0.5fr 8fr 0.5fr;
+  grid-template-rows: 0.25fr 9.5fr 0.25fr;
 }
   
 header {
@@ -33,22 +33,12 @@ footer {
 section {
   border: 1px solid green;
   display: grid;
-  grid-template-columns: auto;
-  justify-content: space-around;
   align-items: center;
 }
 
 ul {
-  display: grid;
-  justify-content: space-between;
-  align-items: center;
+  border: 1px solid pink;
+  display: flex;
+  justify-content: space-around;
   list-style-type: none;
-}
-
-.title_list {
-  grid-template-columns: 1fr 1fr;
-}
-
-.navigation_list {
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
