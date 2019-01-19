@@ -46,11 +46,6 @@
   color: rgba(229,229,229,1.0);
 }
 
-.anchor-position {
-  position: absolute;
-  margin-top: -5vh;
-}
-
 .header__logo {
   height: 32px;
   width: 32px;
