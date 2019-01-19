@@ -5,6 +5,7 @@
  
 .page {
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
   display: flex;
 	flex-direction: column;
   flex: auto;
@@ -44,6 +45,11 @@
 
 .anchor-link:visited {
   color: rgba(229,229,229,1.0);
+}
+
+.anchor-position {
+  position: absolute;
+  margin-top: -5vh;
 }
 
 .header__logo {
